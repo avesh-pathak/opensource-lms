@@ -1,0 +1,16 @@
+{
+    "name": "Babua DSA - The Elite Registry for Engineering Mastery",
+    "short_name": "Babua DSA",
+    "description": "Master DSA and Engineering concepts with structured learning paths",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#f97316",
+    "icons": [
+        {
+            "src": "/favicon.ico",
+            "sizes": "any",
+            "type": "image/x-icon"
+        }
+    ]
+}

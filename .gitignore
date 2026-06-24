@@ -1,0 +1,121 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+build/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+*.log
+*.log.*
+
+# env files (never commit real credentials)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+*.env.*
+!*.env.example
+!.env.example
+
+# vercel
+.vercel
+.kilo*
+
+# kil o worktrees (Cursor/Claude worktree snapshots)
+/.kilo/worktrees/
+/.kilo/worktrees/**
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+commands
+
+skills
+
+*kilo/worktrees*
+chatter-cloak
+    
+superdaddy.md
+
+
+# editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+
+code.py
+codebase.txt
+
+
+# system
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# project specific
+idea.md
+backup.md
+sidebar.md
+admin.txt
+compiler.txt
+.agent
+.agents
+voice.txt
+linkedinpost.txt
+!.xlsx
+testt.xlsx
+test.xlsx
+test_sheet.csv
+help.txt
+q.txt
+build_log.txt
+build_err.txt
+tsc_log.txt
+tsc_log_2.txt
+COMPLIANCE_REPORT.md
+LANDING_PAGE_REFACTOR_REPORT.md
+codebase_dump.txt# Codebase dump outputs
+codebase_dump.txt
+codebase_dump.txt.tmp
+codedump.txt
+*.dump.txt
+# Codebase dump outputs
+codebase_dump.txt
+codebase_dump.txt.tmp
+codedump.txt
+codedump.txt.tmp
+
+.gemini
+.txt
+doctor-output.txt
+lint-results-utf8.txt
+lint-results.txt
