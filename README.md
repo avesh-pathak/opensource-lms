@@ -22,6 +22,7 @@ A full-stack Learning Management System built with Next.js 16, designed for mode
 - [Admin Panel](#admin-panel)
 - [Database Models](#database-models)
 - [Security](#security)
+- [Documentation](#documentation)
 - [Author](#author)
 
 ---
@@ -387,6 +388,17 @@ The admin panel at `/admin` is protected by JWT-based authentication. Access req
 ## License
 
 This project is proprietary software. All rights reserved.
+
+---
+
+## Documentation
+
+| Document | Description |
+|----------|-------------|
+| [Architecture](./architecture.md) | High-level system design, data flow, and architectural decisions |
+| [API Reference](./API.md) | Complete API endpoint documentation with request/response examples |
+| [Deployment Guide](./DEPLOYMENT.md) | Step-by-step deployment for Vercel, Docker, and self-hosted |
+| [Security Policy](./SECURITY.md) | Security measures, vulnerability reporting, and best practices |
 
 ---
 
